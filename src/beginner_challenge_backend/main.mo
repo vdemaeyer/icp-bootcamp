@@ -1,4 +1,4 @@
-import Nat "mo:base/Nat";
+// import Nat "mo:base/Nat";
 import Text "mo:base/Text";
 import HashMap "mo:base/HashMap";
 import Result "mo:base/Result";
@@ -11,7 +11,6 @@ actor {
         id: Principal;
         name: Text;
     };
-
 
     type Note = Text;
 
